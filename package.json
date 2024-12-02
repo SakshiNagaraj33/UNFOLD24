@@ -1,0 +1,27 @@
+{
+  "name": "simpleweb3auth",
+  "version": "1.0.0",
+  "description": "\"A project that demonstrates how to use a MetaMask wallet as a mechanism for website login and authentication\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "ts-node src/server.js"
+  },
+  "author": "Bob Reselman <reselbob@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "eth-sig-util": "^3.0.1",
+    "ethereumjs-util": "^7.1.5",
+    "ethers": "^6.13.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "react": "^18.3.1",
+    "react-native-web": "^0.19.13",
+    "react-router-dom": "^7.0.1",
+    "react-swipeable": "^7.0.2",
+    "save-dev": "^0.0.1-security",
+    "swiper": "^11.1.15"
+  }
+}
